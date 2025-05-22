@@ -1,1 +1,7 @@
-# Пустой репозиторий для работы с Kotlin кодом в Android Studio
+import menu.ArchiveMenu
+import models.Archive
+
+fun main() {
+val archives = mutableListOf<Archive>()
+ArchiveMenu(archives).run()
+}
